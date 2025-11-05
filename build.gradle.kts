@@ -14,3 +14,8 @@ allprojects {
         }
     }
 }
+    buildTypes {
+        release {
+            isMinifyEnabled = false
+        }
+    }
